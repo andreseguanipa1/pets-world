@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin: 0px;
+    background: #d1d1d1;
+}
+
+.menu-main{
+    display: flex;
+    background: #0E2084;
+    border-bottom: 2px solid #F2B363;
+}
+
+.menu-main a{
+    flex: 1;
+    font-family: 'Montserrat', sans-serif; 
+    display: flex; 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 115%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 3% 2% 3% 2%;
+}
+
+.logo{
+    padding: 1% 6% 1% 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-main a:hover{
+    background: rgba(0,0,0, .1);
+}
+
+.footer {
+    flex: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0E2084;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    border-top: 2px solid #F2B363;
+    padding: 2% 0% 2% 0%;  
+}
+
+.icons{
+    color: #fff;
+    padding: 0% 2% 0% 2%;
+}
+
+.icon{
+    padding: 0% 3% 0% 3%;
+}
+
+.instagram:hover{
+    color: #AD308B;
+    cursor: pointer;
+
+}
+
+.whatsapp:hover{
+    color: #25d366;
+    cursor: pointer;
+
+}
+
+.gmail:hover{
+    color: #dd4b39;
+    cursor: pointer;
+}
+
+@media (max-width: 930px) {
+    
+    .menu-main{
+        height: auto;
+        border-bottom: 0px;
+        display: block;
+    }
+    
+    .menu-main a{
+        height: 45px;
+        border-bottom: 1px solid #29487d;
+    }
+
+    .logo{
+        display:block;
+        margin:auto;
+        padding: 0;
+    }
+
+}

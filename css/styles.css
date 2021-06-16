@@ -1,0 +1,38 @@
+body{
+    background: url('../img/dog.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.content-page-imagen{
+    display: flex;
+    width: 100%;
+    margin-top: 38%;
+}
+
+.imagen-photo{
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen-text{
+    position: relative;
+    float: left;
+    width: 60%;
+    padding: 3%;
+    font-size: 120%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagen-img{
+    width: 400px;
+    height: 400px;
+}
+
+.imagen-back{
+    background-color: #0E2084;
+}
