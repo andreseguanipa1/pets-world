@@ -42,7 +42,7 @@ body{
 .footer {
     flex: 1;
     left: 0;
-    bottom: 0;
+    margin-bottom: 0px !important;
     width: 100%;
     background-color: #041261;
     color: white;
