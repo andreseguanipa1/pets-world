@@ -1,0 +1,17 @@
+@media (max-width: 975px) {
+    
+    .imagen-photo, .imagen-text{
+        position: static;
+        float: none;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagen-img{
+        width: 300px;
+        height: 300px;
+    }
+
+}

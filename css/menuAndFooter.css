@@ -6,6 +6,7 @@
 body{
     margin: 0px;
     background: #d1d1d1;
+    overflow-x: hidden;
 }
 
 .menu-main{
@@ -15,6 +16,7 @@ body{
 }
 
 .menu-main a{
+    width: 100%;
     flex: 1;
     font-family: 'Montserrat', sans-serif; 
     display: flex; 
@@ -42,7 +44,7 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #0E2084;
+    background-color: #041261;
     color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;  
@@ -76,7 +78,7 @@ body{
     cursor: pointer;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 975px) {
     
     .menu-main{
         height: auto;
@@ -92,7 +94,11 @@ body{
     .logo{
         display:block;
         margin:auto;
-        padding: 0;
+        padding: 0%;
+    }
+
+    .footer {
+        padding: 3% 0% 3% 0%;  
     }
 
 }

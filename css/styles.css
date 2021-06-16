@@ -5,14 +5,14 @@ body{
 }
 
 .content-page-imagen{
-    display: flex;
+    padding: 2%;
     width: 100%;
     margin-top: 38%;
 }
 
 .imagen-photo{
     position: relative;
-    float: left;
+    float: right;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,6 @@ body{
 
 .imagen-text{
     position: relative;
-    float: left;
     width: 60%;
     padding: 3%;
     font-size: 120%;

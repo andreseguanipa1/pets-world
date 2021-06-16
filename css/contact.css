@@ -61,7 +61,7 @@ input:focus, textarea:focus{
     color: #181E90;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 975px) {
     
     form{
         width: 80%;
