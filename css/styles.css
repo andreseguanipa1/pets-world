@@ -49,27 +49,29 @@
              Productos
 -------------------------------- */
 
-.content-page-index{
-    background-color: #0E2084;
-}
+
 
 
 /* -----------------------------
              Index
 -------------------------------- */
 
-.index-img{
-    border-radius: 5px;
+
+.content-page-index{
+    background-color: #1a2fa1;
+    padding: 2%;
 }
 
+.centrar{
+    text-align: center;
+}
 
 .index-images{
     position: relative;
     float: left;
-    width: 30%;
-    margin-left: 6%;
-    padding: 1%;
-
+    width: 24%;
+    align-items: center;
+    justify-content: center;
 }
 
 .index-text{
@@ -82,12 +84,29 @@
     padding: 2%;
 }
 
-.image1 , .image2 , .image3{
-    padding: 1%;
+.image1:hover , .image2:hover{
+    transform: translate(25px,0);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out; 
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 
-.image2{
-    padding-left: 6%;
+.welcome:hover{
+    transform: translate(0,-10px);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out; 
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.image1 , .image2{
+    padding: 1%;
+    display:block;
+    margin:auto;
+    border-radius: 10px;
 }
 
 .content-page-index{
