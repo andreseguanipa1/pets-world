@@ -1,4 +1,13 @@
+
 @media (max-width: 975px) {
+
+    .content-page-imagen{
+        margin-top: 50%;
+    }
+
+/* -----------------------------
+        Imagen Corporativa
+-------------------------------- */
     
     .imagen-photo, .imagen-text{
         position: static;
@@ -14,4 +23,21 @@
         height: 300px;
     }
 
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    body{
+        background: url('../img/dog-responsive.jpg');
+        background-size: 100%;
+        background-attachment: fixed;    
+    }
+
+    .content-page-imagen{
+        margin-top: 70%;
+    }
+    
 }

@@ -1,8 +1,16 @@
-body{
+/* -----------------------------
+        Backgrounds
+-------------------------------- */
+
+.container-imagen{
     background: url('../img/dog.jpg');
     background-size: 100%;
     background-attachment: fixed;
 }
+
+/* -----------------------------
+        Imagen Corporativa
+-------------------------------- */
 
 .content-page-imagen{
     padding: 2%;
@@ -34,4 +42,55 @@ body{
 
 .imagen-back{
     background-color: #0E2084;
+}
+
+
+/* -----------------------------
+             Productos
+-------------------------------- */
+
+.content-page-index{
+    background-color: #0E2084;
+}
+
+
+/* -----------------------------
+             Index
+-------------------------------- */
+
+.index-img{
+    border-radius: 5px;
+}
+
+
+.index-images{
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-left: 6%;
+    padding: 1%;
+
+}
+
+.index-text{
+    position: relative;
+    float: left;
+    width: 70%;
+    font-size: 140%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+}
+
+.image1 , .image2 , .image3{
+    padding: 1%;
+}
+
+.image2{
+    padding-left: 6%;
+}
+
+.content-page-index{
+    display: flex;
+    width: 100%;
 }

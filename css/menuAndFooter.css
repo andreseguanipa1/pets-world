@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 body{
@@ -40,9 +41,8 @@ body{
 }
 
 .footer {
-    flex: 1;
     left: 0;
-    margin-bottom: 0px !important;
+    bottom: 0;
     width: 100%;
     background-color: #041261;
     color: white;
@@ -50,6 +50,11 @@ body{
     font-family: 'Montserrat', sans-serif;  
     border-top: 2px solid #F2B363;
     padding: 2% 0% 2% 0%;  
+}
+
+.footer.contact{
+    position: absolute;
+
 }
 
 .icons{
@@ -99,6 +104,11 @@ body{
 
     .footer {
         padding: 3% 0% 3% 0%;  
+    }
+
+    .footer.contact{
+        position: static;
+    
     }
 
 }
