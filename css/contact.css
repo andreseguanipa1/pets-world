@@ -1,3 +1,7 @@
+.contact{
+    background: #d1d1d1
+}
+
 form{
     display: flex;
     flex-flow: column;
@@ -80,14 +84,6 @@ input:focus, textarea:focus{
 @media (min-height: 1270px) {
     
     .footer.contact{
-        position: absolute;
-    }
-
-}
-
-@media (min-height: 830px) {
-    
-    .footer.us{
         position: absolute;
     }
 

@@ -38,6 +38,8 @@
 .imagen-img{
     width: 400px;
     height: 400px;
+    display: block;
+    margin: auto;
 }
 
 .imagen-back{
@@ -55,10 +57,11 @@
 /* -----------------------------
              Index
 -------------------------------- */
-
+.index{
+    background-color: #1a2fa1;
+}
 
 .content-page-index{
-    background-color: #1a2fa1;
     padding: 2%;
 }
 
@@ -114,12 +117,19 @@
     width: 100%;
 }
 
+.footer.index{
+    position: absolute;
+}
+
 /* -----------------------------
              Nosotros
 -------------------------------- */
 
+.nosotros{
+    background-color: #1a2fa1 !important;
+}
+
 .content-page-us{
-    background-color: #1a2fa1;
     padding: 2%;
     width: 98%;
     display: flex;
@@ -158,3 +168,6 @@
     cursor: pointer;
 }
 
+.footer.us{
+    position: absolute;
+}

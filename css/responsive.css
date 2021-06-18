@@ -25,7 +25,7 @@
 }
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
     body{
         background: url('../img/dog-responsive.jpg');
@@ -37,7 +37,7 @@
         margin-top: 70%;
     }
     
-}
+} */
 
 /* -----------------------------
              Index
@@ -87,6 +87,20 @@
 
     .content-page-index{
         display: block;
+    }
+
+}
+
+@media(max-width: 1350px){
+    .footer.index{
+        position: static;
+    }
+}
+
+@media (min-height: 1270px) {
+    
+    .footer.index{
+        position: absolute;
     }
 
 }
@@ -166,6 +180,18 @@
         float: none;
         width: 80%;
         padding-bottom: 3%;
+    }
+
+    .footer.us{
+        position: static;
+    }
+
+}
+
+@media (min-height: 1270px) {
+    
+    .footer.us{
+        position: absolute;
     }
 
 }

@@ -6,7 +6,6 @@
 
 body{
     margin: 0px;
-    background: #d1d1d1;
     overflow-x: hidden;
 }
 
@@ -44,7 +43,7 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #041261;
+    background-color: #041261 !important;
     color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;  
