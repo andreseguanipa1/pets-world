@@ -1,13 +1,12 @@
+/* -----------------------------
+        Imagen Corporativa
+-------------------------------- */
 
 @media (max-width: 975px) {
 
     .content-page-imagen{
         margin-top: 50%;
     }
-
-/* -----------------------------
-        Imagen Corporativa
--------------------------------- */
     
     .imagen-photo, .imagen-text{
         position: static;
@@ -23,9 +22,7 @@
         height: 300px;
     }
 
-
 }
-
 
 
 @media (max-width: 600px) {
@@ -141,7 +138,34 @@
 
 }
 
+/* -----------------------------
+             Nosotros
+-------------------------------- */
 
+@media (max-width: 1150px) {
 
+    .content-page-us{
+        display: block;
+    }
 
+    .us-text{
+        font-size: 115%;
+        width: 90%;
+        position: static;
+        margin: auto;
+        display: block;
+        padding-bottom: 5%;
+        padding-top: 5%;
 
+    }
+    
+    .us-photo{
+        position: static;
+        margin: auto;
+        display: block;
+        float: none;
+        width: 80%;
+        padding-bottom: 3%;
+    }
+
+}

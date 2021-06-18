@@ -113,3 +113,48 @@
     display: flex;
     width: 100%;
 }
+
+/* -----------------------------
+             Nosotros
+-------------------------------- */
+
+.content-page-us{
+    background-color: #1a2fa1;
+    padding: 2%;
+    width: 98%;
+    display: flex;
+}
+
+.us-text{
+    font-size: 140%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0% 2% 2% 2%;
+    width: 74%;
+    position: relative;
+}
+
+.us-photo{
+    position: relative;
+    float: right;
+    width: 24%;
+    padding-top: 2%;
+}
+
+.us-img{
+    width: 250px;
+    height: 436px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.salto:hover{
+    transform: translate(0,-8px);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out; 
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
