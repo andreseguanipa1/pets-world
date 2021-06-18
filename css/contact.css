@@ -84,3 +84,11 @@ input:focus, textarea:focus{
     }
 
 }
+
+@media (min-height: 830px) {
+    
+    .footer.us{
+        position: absolute;
+    }
+
+}
