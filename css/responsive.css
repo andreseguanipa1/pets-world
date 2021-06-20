@@ -24,20 +24,19 @@
 
 }
 
+@media (max-width: 600px) {
 
-/* @media (max-width: 600px) {
-
-    body{
+    .container-imagen{
         background: url('../img/dog-responsive.jpg');
         background-size: 100%;
         background-attachment: fixed;    
     }
 
     .content-page-imagen{
-        margin-top: 70%;
+        margin-top: 120%;
     }
     
-} */
+}
 
 /* -----------------------------
              Index
@@ -195,3 +194,45 @@
     }
 
 }
+
+/* -----------------------------
+            Encuéntranos
+-------------------------------- */
+
+@media (max-width: 975px) {
+
+    iframe{
+        padding: 5%;
+        width: 80%;
+    }
+
+    .content-page-encuentranos{
+        text-align: center;
+        align-items: center;
+        padding: 5%;
+        font-size: 120%;
+        color: white;
+    }
+
+}
+
+@media (min-height: 930px) {
+    
+    .footer.encuentranos{
+        position: absolute;
+    }
+
+}
+
+/* -----------------------------
+            Productos
+-------------------------------- */
+
+@media (max-width: 975px) {
+
+    .text-products{
+        font-size: 120%;
+    }
+
+}
+
