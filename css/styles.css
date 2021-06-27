@@ -208,6 +208,7 @@ iframe{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    cursor: pointer;
 }
 
 .products .card:hover{

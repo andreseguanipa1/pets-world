@@ -13,10 +13,6 @@ form{
     padding: 20px;
 }
 
-.footer.contact{
-    position: absolute;
-}
-
 .form{
     margin: 2% 0% 2% 0%;
 }
@@ -73,10 +69,6 @@ input:focus, textarea:focus{
     
     form{
         width: 80%;
-    }
-
-    .footer.contact{
-        position: static;
     }
 
 }
